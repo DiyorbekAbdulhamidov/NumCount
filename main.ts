@@ -49,7 +49,7 @@ function timeCheck() {
             setTimeout(() => {
                 infoValue += stepValue;
                 info.textContent = infoValue.toString();
-            }, timeValue);
+            }, timeValue * 1000);
         });
 
         decrement.addEventListener("click", function () {
@@ -58,7 +58,7 @@ function timeCheck() {
                     infoValue -= stepValue;
                     info.textContent = infoValue.toString();
                 }
-            }, timeValue);
+            }, timeValue * 1000);
 
         });
     }
