@@ -73,7 +73,6 @@ asyncCheckBox.addEventListener("click", function () {
     timeCheck();
 });
 
-
 function init() {
     activ();
     disable();
