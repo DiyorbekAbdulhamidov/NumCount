@@ -77,5 +77,4 @@ function init() {
     activ();
     disable();
 }
-
 init();
